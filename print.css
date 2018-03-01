@@ -1,0 +1,35 @@
+@media print{
+
+body{
+	background: none;
+	margin: 50px, 50px, 50px, 50px;
+}
+
+nav{
+	display: none;
+}
+
+.scroll img{
+    display: none;
+}
+
+a, a:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a[href^="http"]:after {
+    content: " (" attr(href) ")"; 
+    word-wrap: break-word;
+}
+
+h1, h2, h3 p{
+	font-style: normal;
+	font-family: Georgia, 'Times New Roman', Palatino;
+	text-decoration: none;
+}
+
+footer{
+	display: none;
+}
+}

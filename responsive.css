@@ -1,0 +1,63 @@
+
+@media only screen and (max-width : 350px) {
+	
+	body{
+		max-width: 90%;
+		margin: 0 auto;
+	}
+
+	.nav-menu ul li{
+		position: absolute;
+		margin: 0 auto;
+		margin-right: 40px;
+	}
+
+	.menu{
+		position: absolute;
+		margin-top: 85px;
+	}
+	
+	.photo img{
+		height: 300px;
+		width: 200px;
+	}
+
+	.section-photo{
+		margin-top: 330px;
+	}	
+
+	.section-news{
+		margin-top: 330px;
+	}
+
+	.section-news img{
+		height: 120px;
+		width: 250px;
+	}
+
+	.album{
+		margin-top: 330px;
+	}
+
+	.album img{
+		height: 300px;
+		width: 250px;
+	}
+
+	.rozklad{
+		margin-top: 330px;
+	}
+
+	.youtube{
+		margin-top: 310px;
+		margin-bottom: 100px;
+	}
+
+	.youtube iframe.ifr{
+		height: 250px;
+		width: 250px;
+	}
+
+
+
+}
